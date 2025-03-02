@@ -1,0 +1,192 @@
+/* Global Styles */
+:root {
+    --background-color: #f8f9fa;
+    --text-color: #333;
+    --header-bg: linear-gradient(135deg, #6a11cb, #2575fc);
+    --header-text: white;
+    --card-bg: white;
+    --card-text: #666;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --button-bg: #2575fc;
+    --button-hover: #1a5bbf;
+    --modal-bg: white;
+    --modal-text: #666;
+}
+
+[data-theme="dark"] {
+    --background-color: #1e1e1e;
+    --text-color: #f8f9fa;
+    --header-bg: linear-gradient(135deg, #4a148c, #0d47a1);
+    --header-text: #f8f9fa;
+    --card-bg: #2d2d2d;
+    --card-text: #f8f9fa;
+    --card-shadow: rgba(255, 255, 255, 0.1);
+    --button-bg: #1a5bbf;
+    --button-hover: #2575fc;
+    --modal-bg: #2d2d2d;
+    --modal-text: #f8f9fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Header */
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Filters and Search */
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filters select, .filters input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: var(--card-bg);
+    color: var(--text-color);
+}
+
+.filters button {
+    padding: 10px 20px;
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.filters button:hover {
+    background: var(--button-hover);
+}
+
+/* Event List */
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px var(--card-shadow);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-card h3 {
+    color: var(--button-bg);
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    color: var(--card-text);
+    margin-bottom: 10px;
+}
+
+.event-card button {
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.event-card button:hover {
+    background: var(--button-hover);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: var(--modal-bg);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-content h2 {
+    color: var(--button-bg);
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    color: var(--modal-text);
+    margin-bottom: 10px;
+}
+
+.modal-content p strong {
+    color: var(--button-bg);
+}
+
+.modal-content button {
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background: var(--button-hover);
+    transform: rotate(2deg);
+}

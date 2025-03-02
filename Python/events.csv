@@ -1,0 +1,12 @@
+title,date,category,location,description,organizer,price,image
+Jazz Night,2023-11-15,Music,Downtown Club,An evening of smooth jazz performances.,Local Music Group,Free,images/jazz.jpg
+Tech Conference 2023,2023-12-01,Tech,Convention Center,Explore the latest in technology and innovation.,Tech Innovators Inc.,$50,images/tech.jpg
+Food Festival,2023-10-25,Food,City Park,A celebration of local and international cuisines.,Foodies United,Free,images/food.jpg
+Art Exhibition,2023-11-10,Arts,Art Gallery,Featuring works from emerging artists.,Art Society,$10,images/art.jpg
+Marathon 2023,2023-11-05,Sports,Main Street,Annual city marathon open to all.,Sports Association,Free,images/marathon.jpgtitle,date,category,location,description,organizer,price,image
+Jazz Night,2025-03-15,Music,Downtown Jazz Club,Enjoy an evening of smooth jazz with live performances.,Local Music Society,$20,https://via.placeholder.com/300x200?text=Jazz+Night
+Art Exhibition,2025-03-20,Arts,City Art Gallery,Explore contemporary art from local artists.,City Art Council,Free,https://via.placeholder.com/300x200?text=Art+Exhibition
+Food Festival,2025-03-25,Food,Central Park,Taste delicious dishes from around the world.,Local Foodies Association,$10,https://via.placeholder.com/300x200?text=Food+Festival
+Tech Conference,2025-04-01,Technology,Convention Center,Learn about the latest trends in technology.,Tech Innovators Inc.,$50,https://via.placeholder.com/300x200?text=Tech+Conference
+Community Cleanup,2025-04-05,Community,Green Valley Park,Join us in cleaning up the local park.,Green Earth Initiative,Free,https://via.placeholder.com/300x200?text=Community+Cleanup
+Marathon Championship,2025-04-10,Sports,City Stadium,Compete or cheer at the annual marathon event.,Sports League,$30,https://via.placeholder.com/300x200?text=Marathon+Championship
